@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function MyProject() {
   return (
-    <div class="container-flex project mx-3 px-3 my-3  text-center">
+    <div class="container-flex project mx-3 px-3   text-center">
       {/* Start of Container div */}
 
       <div class="row">
         {/* Start of Row div */}
 
-        <div class="col">
+        <div class="col my-3">
           {/* Start of Column div */}
 
           <div class="card card1">
@@ -45,7 +45,7 @@ export default function MyProject() {
         </div>
         {/* End of Column div */}
 
-        <div class="col">
+        <div class="col my-3">
           {/* Start of Column div */}
 
           <div class="card card2">
