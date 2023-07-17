@@ -45,41 +45,7 @@ export default function MyProject() {
         </div>
         {/* End of Column div */}
 
-        <div className="col my-3">
-          {/* Start of Column div */}
-
-          <div className="card card2">
-            <div className="card-header">
-              <h4>Text Utility</h4>
-            </div>
-            <div className="card-body">
-              <h6 className="card-title">
-                Performing different functionality on the text.
-              </h6>
-              <p className="card-text">Example of state and props.</p>
-            </div>
-            <div className="butn my-3 ">
-              <Link
-                to="/"
-                style={{ textDecoration: "none" }}
-              >
-                <button type="button" className="btn btn-outline-light ">
-                  View
-                </button>
-              </Link>
-
-              <Link
-                to="/"
-                style={{ textDecoration: "none" }}
-              >
-                <button type="button" className="btn btn-outline-light">
-                  Source Code
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        {/* End of Column div */}
+        
       </div>
       {/* End of Row div */}
     </div>
