@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function MyProject() {
   return (
-    <div class="container project mx-3 px-3 my-3  text-center">
+    <div class="container-flex project mx-3 px-3 my-3  text-center">
       {/* Start of Container div */}
 
       <div class="row">
